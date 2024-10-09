@@ -1,6 +1,7 @@
 import React from 'react';
 import datas from "../../data/data"
 import hero from '../../assets/imgs/hero_slider.svg';
+import { Cards } from '../../components/cards/cards';
 
 export const Home = () => {
     return (
@@ -14,12 +15,14 @@ export const Home = () => {
                         </div>
                     ))}
                 </div>
-
                 {/* Hero rasm */}
                 <div className='pt-8'>
                     <img src={hero} alt="Hero Slider" />
                 </div>
             </div>
+
+            <Cards data={datas.xit_products} title={'Хиты продаж'}/>
+            <Cards data={datas.new_products} title={'Новинки'}/>
         </div>
     );
 };

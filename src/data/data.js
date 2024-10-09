@@ -10,6 +10,12 @@ import katalog9 from '../assets/imgs/katalog9.svg'
 import katalog10 from '../assets/imgs/katalog10.svg'
 import katalog11 from '../assets/imgs/katalog11.svg'
 import product_img from '../assets/imgs/xit_prodact.svg'
+import stars from '../assets/imgs/stars.svg'
+import { Like_icon } from '../assets/icons/like_icon'
+import { Comment_icon } from '../assets/icons/comment_icon'
+import { Statistic_icon } from '../assets/icons/statistic_icon'
+import { Cart_icon } from '../assets/icons/cart_icon'
+
 
 
 
@@ -78,11 +84,141 @@ const datas = {
     xit_products: [
         {
             id: "1",
-            img:product_img,
+            img: product_img,
             avtor: "Сигвеи",
-            discription: "Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)"
-        }
+            discription: "Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)",
+            stars: stars,
+            // comment: <Comment_icon/>,
+            commens_number: "(17)",
+            old_price: "5400 ₽",
+            price: "4990 ₽",
+            sale: "20%",
+            sale_price: "— 1 000 ₽",
+            // like: <Like_icon/>,
+            // statistic: <Statistic_icon/>,
+            button_value: "Купить в 1 клик",
+            // cart: <Cart_icon/>
+        },
+        {
+            id: "2",
+            img: product_img,
+            avtor: "Сигвеи",
+            discription: "Гироскутер Smart Balance Premium 10.5 Зелёный граффити",
+            stars: stars,
+            // comment: <Comment_icon/>,
+            commens_number: "(17)",
+            old_price: "5400 ₽",
+            price: "4990 ₽",
+            sale: "20%",
+            sale_price: "— 1 000 ₽",
+            // like: <Like_icon/>,
+            // statistic: <Statistic_icon/>,
+            button_value: "Купить в 1 клик",
+            // cart: <Cart_icon/>
+        },
+        {
+            id: "3",
+            img: product_img,
+            avtor: "Сигвеи",
+            discription: "Гироскутер Smart Balance",
+            stars: stars,
+            // comment: <Comment_icon/>,
+            commens_number: "(17)",
+            price: "13 690 ₽",
+            sale: "20%",
+            sale_price: "— 1 000 ₽",
+            // like: <Like_icon/>,
+            // statistic: <Statistic_icon/>,
+            button_value: "Купить в 1 клик",
+            // cart: <Cart_icon/>
+        },
+        {
+            id: "4",
+            img: product_img,
+            avtor: "Сигвеи",
+            discription: "Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)",
+            stars: stars,
+            // comment: <Comment_icon/>,
+            commens_number: "(17)",
+            old_price: "5400 ₽",
+            price: "4990 ₽",
+            sale: "20%",
+            sale_price: "— 1 000 ₽",
+            // like: <Like_icon/>,
+            // statistic: <Statistic_icon/>,
+            button_value: "Купить в 1 клик",
+            // cart: <Cart_icon/>
+        },
+    ],
 
+    new_products: [
+        {
+            id: "1",
+            img: product_img,
+            avtor: "Сигвеи",
+            discription: "Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)",
+            stars: stars,
+            // comment: <Comment_icon/>,
+            commens_number: "(17)",
+            old_price: "5400 ₽",
+            price: "4990 ₽",
+            sale: "20%",
+            sale_price: "— 1 000 ₽",
+            // like: <Like_icon/>,
+            // statistic: <Statistic_icon/>,
+            button_value: "Купить в 1 клик",
+            // cart: <Cart_icon/>
+        },
+        {
+            id: "2",
+            img: product_img,
+            avtor: "Сигвеи",
+            discription: "Гироскутер Smart Balance Premium 10.5 Зелёный граффити",
+            stars: stars,
+            // comment: <Comment_icon/>,
+            commens_number: "(17)",
+            old_price: "5400 ₽",
+            price: "4990 ₽",
+            sale: "20%",
+            sale_price: "— 1 000 ₽",
+            // like: <Like_icon/>,
+            // statistic: <Statistic_icon/>,
+            button_value: "Купить в 1 клик",
+            // cart: <Cart_icon/>
+        },
+        {
+            id: "3",
+            img: product_img,
+            avtor: "Сигвеи",
+            discription: "Гироскутер Smart Balance",
+            stars: stars,
+            // comment: <Comment_icon/>,
+            commens_number: "(17)",
+            price: "13 690 ₽",
+            sale: "20%",
+            sale_price: "— 1 000 ₽",
+            // like: <Like_icon/>,
+            // statistic: <Statistic_icon/>,
+            button_value: "Купить в 1 клик",
+            // cart: <Cart_icon/>
+        },
+        {
+            id: "4",
+            img: product_img,
+            avtor: "Сигвеи",
+            discription: "Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)",
+            stars: stars,
+            // comment: <Comment_icon/>,
+            commens_number: "(17)",
+            old_price: "5400 ₽",
+            price: "4990 ₽",
+            sale: "20%",
+            sale_price: "— 1 000 ₽",
+            // like: <Like_icon/>,
+            // statistic: <Statistic_icon/>,
+            button_value: "Купить в 1 клик",
+            // cart: <Cart_icon/>
+        },
     ]
 }
 
