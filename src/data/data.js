@@ -9,7 +9,7 @@ import katalog8 from '../assets/imgs/katalog8.svg'
 import katalog9 from '../assets/imgs/katalog9.svg'
 import katalog10 from '../assets/imgs/katalog10.svg'
 import katalog11 from '../assets/imgs/katalog11.svg'
-import product_img from '../assets/imgs/xit_product.svg'
+import product_img from '../assets/imgs/xit_prodact.svg'
 
 
 
