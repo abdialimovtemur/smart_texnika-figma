@@ -75,7 +75,7 @@ const datas = {
     ],
 
 
-    xit_product: [
+    xit_products: [
         {
             id: "1",
             img:product_img,
