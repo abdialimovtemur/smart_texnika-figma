@@ -12,7 +12,7 @@ export const Cards = ({ data, title }) => {
                 {
                     data.map((item, index) => {
                         return (
-                            <Link to={`xit_products/${item.id}`}>
+                            <Link to={`product/${item.id}`}>
                                 <div key={index} className='flex flex-col gap-4 w-[330px] h-[596px] border-2 border-[#EAEAF0] p-4 justify-between'>
                                     <div className='flex flex-col gap-2'>
                                         <img src={item.img} alt="img" />
